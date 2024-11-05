@@ -1,6 +1,7 @@
 - task: akeyless-secrets@1
   name: 'secrets'
   inputs:
-    accessid: 'p-cyyhke3ieq8uom'
+    accessid: 'p-si6yio87v9loom'
     azureJwt: '$(AzureCLI.azure_jwt)'
-    staticSecrets: '{"/MyFirstSecret":"my_first_secret"}'
+    staticSecrets: '{"/plugins/azure-devops":"azure-secret"}'
+
